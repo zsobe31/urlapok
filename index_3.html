@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>űrlap</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+  
+    <form name="urlap">
+    
+      <h1>HTML űrlap</h1>
+      <br><br>
+      
+      <h5>Név: 
+        <input name="nev" value="ide írd a neved" id="nev"></h5>
+      <br><br>
+      
+      <h5>Jelszó:
+        <input type="password" name="jelszo" id="jelszo"></h5>
+      <br><br>
+      
+      <h5>Válassz egy színt:
+        
+        <select name="szin" id="szin">
+        
+          <option value="1">kék</option>
+          <option value="2">fekete</option>
+          <option value="3">piros</option>
+          <option value="4" selected>sárga</option>
+          <option value="5">zöld</option>
+          <option value="6">barna</option>
+          
+        </select>
+        
+      </h5>
+      
+      <h5>Válasszd ki a kedvenc színeidet:
+        
+        <select name="szin_2" id="szin_2" size="3" multiple>
+        
+          <option value="1" id="kek">kék</option>
+          <option value="2" id="fekete">fekete</option>
+          <option value="3" id="piros">piros</option>
+          <option value="4" selected id="sarga">sárga</option>
+          <option value="5" id="zold">zöld</option>
+          <option value="6" id="barna">barna</option>
+          
+        </select>
+      </h5>
+      
+        <h5>Válaszd ki a kedvenc autómárkád:
+  
+          <select name="autok" id="autok">
+            
+            <optgroup label="olasz autók">
+              <option value="1">fiat</option>
+              <option value="2">ferrari</option>
+            </optgroup>
+            
+            <optgroup label="német autók">
+              <option value="3">vw</option>
+              <option value="4">audi</option>
+              <option value="5">opel</option>
+              <option value="6">ford</option>
+            </optgroup>
+            
+            <optgroup label="japán autók">
+              <option value="7">nissan</option>
+              <option value="8">toyota</option>
+            </optgroup>
+        
+          </select>
+          
+        </h5>
+        
+      <hr>
+      <h3>Kedvenc fagyid:</h3>
+      <h6><input type="radio" name="fagyi" class="fagyi" value="1"> puncs fagyi</h6>
+      <h6><input type="radio" name="fagyi" class="fagyi" value="2" checked> csoki fagyi</h6>
+      <h6><input type="radio" name="fagyi" class="fagyi" value="3"> eper fagyi</h6>
+      <h6><input type="radio" name="fagyi" class="fagyi" value="4"> kávé fagyi</h6>
+      <hr>
+      <h3>Kedvenc itaod:</h3>
+
+      <h6><input type="radio" name="ital" class="ital" value="1" checked> almalé</h6>
+      <h6><input type="radio" name="ital" class="ital" value="2"> narancslé</h6>
+      <h6><input type="radio" name="ital" class="ital" value="3"> őszilé</h6>
+      
+      <br>
+      <hr>
+      
+      <h5><input type="checkbox" name="hirlevel" value="igen"> szeretnél hírlevelet kapni?</h5>
+      <br>
+      <h5><input type="checkbox" name="ajandek" value="igen" checked> szeretnél ajándékot kapni?</h5>
+      
+    </form>
+  
+  </body>
+
+</html>
+

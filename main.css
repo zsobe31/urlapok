@@ -1,4 +1,3 @@
-
 #formazott {
   font-family: monospace;
   color: brown;
@@ -48,6 +47,7 @@
   background-color: beige;
   font-weight: bold;
 }
+
 #szin_2 {
   border: 2px blue solid;
   font-family: cursive;
@@ -82,10 +82,6 @@
   color: brown;
 }
 
-.fagyi {
-
-}
-
 #szoveg {
   width: 600px;
   height: 100px;
@@ -101,4 +97,98 @@
   font-size: 26;
   font-family: cursive;
   font-weight: bold;
+  background-color: aqua;
+  border: 2px red solid;
+  border-radius: 5px;
+}
+
+#kep_gomb {
+  width: 130px;
+  height: 120px;
+}
+
+#gomb_gomb {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  border: 0px;
+}
+
+#gomb_gomb:hover {
+  cursor: pointer;
+}
+
+#ok_gomb {
+  background-color: white;
+  border: 0px;
+}
+
+#ok_gomb:hover {
+  cursor: pointer;
+}
+
+#file {
+  width: 350px;
+}
+
+#olvashato {
+  border: 0px;
+  color: blue;
+  font-weight: bold;
+}
+
+#hatastalan {
+  border: 0px;
+}
+
+.csoport1 {
+  width: 400px;
+  padding: 20px;
+}
+
+.bevitel1 {
+  text-align: center;
+}
+
+#csoport2 {
+  border: 2px blue solid;
+  background-color: lightgoldenrodyellow;
+}
+
+#bevitel2 {
+  border: 2px brown solid;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+#nev1 {
+  width: 100%;
+}
+
+#email1 {
+  width: 100%;
+}
+
+#eletkor1 {
+  width: 100%;
+}
+
+#tablazat {
+  padding: 20px;
+}
+
+#jobb {
+  text-align: right;
+}
+
+#kuld {
+  text-align: center;
+}
+
+#fejlec {
+  padding-left: 45px;
+}
+
+#radio {
+  text-align: center;
 }

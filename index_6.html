@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>űrlap</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <form name="urlap" action="feldolgozo.html" method="post" enctype="multipart/form-data">
+
+    <!-- űrlap elküldése -->
+    
+    
+    <table id="tablazat">
+    
+      <tr>
+      
+        <td colspan="2">    
+          <h2 id="fejlec">Jelentkezési űrlap!</h2>
+        </td>
+      
+      </tr>
+      
+      <tr>
+      
+        <td id="jobb"><h3>Név:</h3></td>
+        <td><input name="nev" id="nev1"></td>
+        
+      </tr>
+      
+      <tr>
+      
+        <td id="jobb"><h3>Email:</h3></td>
+        <td><input name="email" id="email1"></td>
+        
+      </tr>
+      
+      <tr>
+      
+        <td id="jobb"><h3>Életkór:</h3></td>
+        <td>
+          
+          <select name="eletkor" id="eletkor1">
+        
+            <option value="1">-10</option>
+            <option value="2">11-20</option>
+            <option value="3">21-30</option>
+            <option value="4">31-40</option>
+            <option value="5">41-50</option>
+            <option value="6">51-</option>
+      
+         </select>
+        
+        </td>
+        
+      </tr>
+      
+      <tr>
+      
+        <td id="jobb"><h3>Hírlevél:</h3></td>
+        <td id="radio"><input type="radio" name="hirlevel" value="0"> nem kérek
+      <input type="radio" name="hirlevel" value="1" checked> kérek</td>
+        
+      </tr>
+    
+       <tr>
+      
+        <td id="jobb"><h3>fénykép:</h3></td>
+        <td><input type="file" name="fenykep"></td>
+        
+      </tr>
+      
+      <tr>
+      
+        <td colspan="2" id="kuld">
+          
+          <input type="reset" value="Alaphelyzet">
+          <input type="submit" value="Elküldöm a jelntkezést!">
+        
+        </td>
+      
+      </tr>
+      
+      
+    </table>
+
+    
+    
+
+    
+  </form>
+
+</body>
+
+</html>
